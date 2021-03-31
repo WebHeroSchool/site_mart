@@ -1,0 +1,28 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+.wrapper{
+  margin: auto;
+  width: 80%;
+}
+.logo,.menu, .image-content__image, .logo-content__name {
+  display: inline-block;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+.logo{
+  padding:40px 0;
+}
+.menu{
+  display:flex;
+  align-items:center;
+}
+.menu__item{
+  padding:0 13px;
+}
+.menu__item:last-child{
+  padding-right:0;
+}

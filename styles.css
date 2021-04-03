@@ -1,0 +1,41 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+.wrapper{
+  margin: auto;
+  width: 80%;
+}
+.logo,.menu, .image-content__image, .logo-content__name {
+  display: inline-block;
+}
+.header{
+  padding:40px 0;
+  display:flex;
+  justify-content: space-between;
+}
+.logo{
+  //padding:40px 0;
+  wight: 190px;
+  heigt: 35px;
+  //background: red;
+}
+.menu{
+  display:flex;
+  align-items:center;
+  font-family: robotoregular;
+}
+.menu__item{
+  padding:0 13px;
+}
+.menu__item:last-child{
+  padding-right:0;
+}
+
+.article-content__title{
+  font-family: pt_serifbold;
+}
+
+.article-content__text, .article-content__button{
+  font-family: robotoregular;
+}

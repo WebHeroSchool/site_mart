@@ -10,11 +10,15 @@ body {
   display: inline-block;
 }
 .header{
+  padding:40px 0;
   display:flex;
   justify-content: space-between;
 }
 .logo{
-  padding:40px 0;
+  //padding:40px 0;
+  wight: 190px;
+  heigt: 35px;
+  //background: red;
 }
 .menu{
   display:flex;

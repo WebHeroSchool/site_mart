@@ -1,0 +1,107 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+.wrapper{
+  margin: auto;
+  width: 80%;
+}
+.logo,.menu, .image-content__image, .logo-content__name {
+  display: inline-block;
+}
+.header{
+  padding:40px 0;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.logo{
+  width: 190px;
+  height: 35px;
+}
+.menu{
+  display:flex;
+  align-items:center;
+  font-family: robotoregular;
+}
+.menu__item{
+position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.menu__item_active:hover:after{
+position:absolute;
+  display: block;
+  content: "";
+  left: 0;
+  width: 0;
+  height: 3px;
+  background:#0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+.menu__item:last-child{
+  margin-right: 0;
+}
+
+.menu__item:hover{
+  opacity: 0.5;
+}
+
+.menu__item:hover:after, .menu__item_active:after {
+  opacity: 1;
+  width: 100%;
+}
+
+.article-content{
+  padding: 0 63% 100% 0;
+  background: top right no-repeat url("img/main_image.svg");
+}
+
+.article-content__title{
+font-family: PT Serif;
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+//line-height: 87px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.article-content__title-text-highlight{
+  background: #ECF3FF
+}
+
+.article-content__text{
+margin: 0 0 41px 0;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.article-content__button{
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica. sans-serif;
+  color:#fff;
+  background: #0056EC;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.article-content__button:hover{
+  opacity: .5;
+}
+
+.article-content__text, .article-content__button{
+  font-family: robotoregular;
+}
